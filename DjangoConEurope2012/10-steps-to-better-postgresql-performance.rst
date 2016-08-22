@@ -92,7 +92,7 @@ Stupid Database Tricks
 ----------------------
 
 * Don't put your sessions in the database
-* Avoid aonstantly-updated accumulator records.
+* Avoid constantly-updated accumulator records.
 * Don't put the task queues in the database
 * Don't use the database as a filesystem
 * Don't use frequently-locked singleton records
@@ -102,7 +102,7 @@ Stupid Database Tricks
 One schema trick
 -----------------
 
-* If one model ha sa constantly-updated section and a rarely-updated section
+* If one model has a constantly-updated section and a rarely-updated section
 
     * last-seen on site field
     * cut out that field into a new model
